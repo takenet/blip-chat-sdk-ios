@@ -1,0 +1,2 @@
+libs/*.xcframework filter=lfs diff=lfs merge=lfs -text
+*.xcframework filter=lfs diff=lfs merge=lfs -text
