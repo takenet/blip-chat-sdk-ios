@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F393633BDEBB1FD1FE5C0D5 /* Pods_blip_sdk_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9853AE7715D995E554CF99B /* Pods_blip_sdk_ios.framework */; };
+		9369151A29380A2900BB4FF9 /* blip-sdk-ios.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9369151929380A2900BB4FF9 /* blip-sdk-ios.podspec */; };
 		93CE7C032919AC5100AEFC50 /* blip_sdk_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CE7C022919AC5100AEFC50 /* blip_sdk_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93CE7C0C2919ACA000AEFC50 /* BlipChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE7C092919ACA000AEFC50 /* BlipChat.swift */; };
 		93CE7C0D2919ACA000AEFC50 /* BlipChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE7C0A2919ACA000AEFC50 /* BlipChatModel.swift */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		8B734392E330B22186143AFF /* Pods-blip-sdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blip-sdk-ios.release.xcconfig"; path = "Target Support Files/Pods-blip-sdk-ios/Pods-blip-sdk-ios.release.xcconfig"; sourceTree = "<group>"; };
+		9369151929380A2900BB4FF9 /* blip-sdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = "blip-sdk-ios.podspec"; sourceTree = "<group>"; };
 		93CE7BFF2919AC5100AEFC50 /* blip_sdk_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = blip_sdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CE7C022919AC5100AEFC50 /* blip_sdk_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blip_sdk_ios.h; sourceTree = "<group>"; };
 		93CE7C092919ACA000AEFC50 /* BlipChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlipChat.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		93CE7BF52919AC5100AEFC50 = {
 			isa = PBXGroup;
 			children = (
+				9369151929380A2900BB4FF9 /* blip-sdk-ios.podspec */,
 				93CE7C012919AC5100AEFC50 /* blip-sdk-ios */,
 				93CE7C002919AC5100AEFC50 /* Products */,
 				371476AC96CDF8DD10E9877E /* Pods */,
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9369151A29380A2900BB4FF9 /* blip-sdk-ios.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,9 +18,6 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Blip SDK iOS'
   spec.source_files = '**/*.swift', '*.swift'
   spec.swift_versions = '5.0'
-  spec.ios.deployment_target = '15.0'
-  spec.vendored_frameworks = 'libs/*.xcframework'
- 
-
-
+  spec.ios.deployment_target = '11.0'
+  spec.vendored_frameworks = 'libs/Debug/*.xcframework', 'libs/Release/*.xcframework'
 end
