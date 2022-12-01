@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		8B734392E330B22186143AFF /* Pods-blip-sdk-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blip-sdk-ios.release.xcconfig"; path = "Target Support Files/Pods-blip-sdk-ios/Pods-blip-sdk-ios.release.xcconfig"; sourceTree = "<group>"; };
-		9369151929380A2900BB4FF9 /* blip-sdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = "blip-sdk-ios.podspec"; sourceTree = "<group>"; };
+		9369151929380A2900BB4FF9 /* blip-sdk-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = "blip-sdk-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CE7BFF2919AC5100AEFC50 /* blip_sdk_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = blip_sdk_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CE7C022919AC5100AEFC50 /* blip_sdk_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blip_sdk_ios.h; sourceTree = "<group>"; };
 		93CE7C092919ACA000AEFC50 /* BlipChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlipChat.swift; sourceTree = "<group>"; };

@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = 'libs'
+  s.name                  = 'blip-sdk-ios-libs-release'
   s.version               = '3.3.500' # 3.3.5
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
@@ -41,5 +41,6 @@ LICENSE
   s.source                = { :http => 'https://storage.googleapis.com/flutter_infra_release/flutter/3ad69d7be3a7231aab5525db322fc699f098315f/ios/artifacts.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '11.0'
-  s.vendored_frameworks   = 'Debug/*.xcframework'
+  s.static_framework = true
+  s.vendored_frameworks   = 'libs/Release/*.xcframework'
 end
