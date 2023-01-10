@@ -1,1 +1,4 @@
 libs/Release/Flutter.xcframework/ios-arm64/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
+libs/Debug/App.xcframework/ios-arm64/App.framework/flutter_assets/kernel_blob.bin filter=lfs diff=lfs merge=lfs -text
+libs/Debug/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
+libs/Release/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
